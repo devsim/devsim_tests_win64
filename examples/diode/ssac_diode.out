@@ -113,7 +113,7 @@ Iteration: 0
 Circuit Solution:
 V1.I	3.30872e-23
 top_bias	0
-bot	0	6.14280668542e-09	7.39016990586e-25	6.14280668542e-09
+bot	0.0	6.14280668542e-09	7.39016990586e-25	6.14280668542e-09
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -211,7 +211,7 @@ Iteration: 8
 Circuit Solution:
 V1.I	-4.28018e-09
 top_bias	0.1
-bot	0	-2.04366647259e-08	-1.38872658224e-09	-2.18253913081e-08
+bot	0.0	-2.04366647259e-08	-1.38872658224e-09	-2.18253913081e-08
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -294,7 +294,7 @@ Iteration: 7
 Circuit Solution:
 V1.I	-1.93437e-07
 top_bias	0.2
-bot	0	-1.03961477955e-07	-6.41988690853e-08	-1.6816034704e-07
+bot	0.0	-1.03961477955e-07	-6.41988690853e-08	-1.6816034704e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -370,7 +370,7 @@ Iteration: 6
 Circuit Solution:
 V1.I	-8.71728e-06
 top_bias	0.3
-bot	0	-5.80555075445e-06	-2.90489765995e-06	-8.7104484144e-06
+bot	0.0	-5.80555075445e-06	-2.90489765995e-06	-8.7104484144e-06
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -446,7 +446,7 @@ Iteration: 6
 Circuit Solution:
 V1.I	-0.000393366
 top_bias	0.4
-bot	0	-0.000262165911866	-0.000131169633098	-0.000393335544965
+bot	0.0	-0.000262165911866	-0.000131169633098	-0.000393335544965
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -522,7 +522,7 @@ Iteration: 6
 Circuit Solution:
 V1.I	-0.0177159
 top_bias	0.5
-bot	0	-0.0118079690348	-0.00590798459506	-0.0177159536298
+bot	0.0	-0.0118079690348	-0.00590798459506	-0.0177159536298
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground

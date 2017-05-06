@@ -7,7 +7,8 @@ Results are sensitive to the CPU and system libraries that may be installed in y
 All tests pass on Windows 7 running in vmware on a Macbook Pro 2015.
 
 Requirements:
-Miniconda installed in c:\Miniconda-x64
+Python 2.7 (Miniconda installed in c:\Miniconda-x64)
+Miniconda packages (conda install numpy mkl)
 Cygwin 32 bit
 CMake from http://www.cmake.org
 

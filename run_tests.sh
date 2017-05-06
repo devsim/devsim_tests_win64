@@ -15,15 +15,15 @@ DEVSIM_TCL_EXE=${BASEDIR}/${TAGDIR}/bin/devsim_tcl
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
 
-mkdir -p bin
-
 # symlinks do not work on windows
 for i in testing examples; do \
   #rm -rf $i; \
   cp -r ${TAGDIR}/$i .; \
 done
   
-
+export PYTHONPATH=`cygpath -w ${BASEDIR}/${TAGDIR}`
+# sequential really speeds things up
+export MKL_NUM_THREADS=1
 rm -rf run && mkdir run
 (cd run && "${CMAKE}" -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${DEVSIM_PY_EXE} -DDEVSIM_TCL_TEST_EXE=${DEVSIM_TCL_EXE} ..)
 (cd run && "${CTEST}" -j2)

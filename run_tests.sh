@@ -2,55 +2,26 @@
 set -e
 BASEDIR="${PWD}"
 TAG=${1}
-TAGDIR=devsim_linux_${TAG}
+TAGDIR=devsim_win64_${TAG}
 TAGTGZ=${TAGDIR}.tgz
 DEVSIM_PY=${TAGDIR}/bin/devsim
 DEVSIM_TCL=${TAGDIR}/bin/devsim_tcl
-ANACONDA_PATH=${HOME}/anaconda
+ANACONDA_PATH=/cygdrive/C/Miniconda-x64
+CMAKE=/cygdrive/C/Program\ Files\ \(x86\)/CMake/bin/cmake
+CTEST=/cygdrive/C/Program\ Files\ \(x86\)/CMake/bin/ctest
 
 #curl -L -O https://github.com/devsim/devsim/releases/download/${TAG}/${TAGTGZ}
 #tar xzf ${TAGTGZ} 
-yum install -y epel-release
-yum install -y cmake3 perl
-
-if [ ! -d ${HOME}/anaconda ]; then
-( cd ${HOME} && curl -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh  && bash Miniconda2-latest-Linux-x86_64.sh -b -p ${HOME}/anaconda )
-${HOME}/anaconda/bin/conda install -y numpy mkl
-fi
 
 mkdir -p bin
 
-cat << EOF > bin/devsim
-#!/bin/bash
-set -e
-progname="\$0"
-curdir=\`dirname "\$progname"\`
-ANACONDA_PATH=${ANACONDA_PATH}
-export LD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
-export PYTHONHOME=\${ANACONDA_PATH}
-# sequential really speeds things up
-export MKL_NUM_THREADS=1
-\${curdir}/../${DEVSIM_PY} \$*
-EOF
-chmod +x bin/devsim
-
-cat << EOF > bin/devsim_tcl
-#!/bin/bash
-set -e
-progname="\$0"
-curdir=\`dirname "\$progname"\`
-ANACONDA_PATH=${ANACONDA_PATH}
-export LD_LIBRARY_PATH=\${ANACONDA_PATH}/lib
-export TCL_LIBRARY=\${ANACONDA_PATH}/lib/tcl8.5
-# sequential really speeds things up
-export MKL_NUM_THREADS=1
-\${curdir}/../${DEVSIM_TCL} \$*
-EOF
-chmod +x bin/devsim_tcl
-
-ln -sf ${TAGDIR}/testing .
-ln -sf ${TAGDIR}/examples .
+# symlinks do not work on windows
+for i in testing examples; do \
+  rm -rf $i; \
+  cp -r ${TAGDIR}/$i .; \
+done
+  
 
 rm -rf run && mkdir run
-(cd run && cmake3 -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${BASEDIR}/bin/devsim -DDEVSIM_TCL_TEST_EXE=${BASEDIR}/bin/devsim_tcl ..)
-(cd run && ctest3 -j2)
+(cd run && "${CMAKE}" -DDEVSIM_TEST_GOLDENDIR=${BASEDIR}/goldenresults -DDEVSIM_PY_TEST_EXE=${TAGDIR}/bin/devsim -DDEVSIM_TCL_TEST_EXE=${TAGDIR}/bin/devsim_tcl ..)
+(cd run && "${CTEST}" -j2)

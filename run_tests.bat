@@ -42,7 +42,6 @@ echo SET MKL_NUM_THREADS=1
 echo call conda activate python2
 echo SET PYTHONHOME=%ANACONDAPATH%/python2
 echo call %DEVSIM_PY_EXE% %%*
-echo call conda deactivate
 )
 
 > %DEVSIM_PY3_BAT% (
@@ -52,7 +51,6 @@ echo SET MKL_NUM_THREADS=1
 echo call conda activate python3
 echo SET PYTHONHOME=%ANACONDAPATH%/python3
 echo call %DEVSIM_PY3_EXE% %%*
-echo call conda deactivate
 )
 
 > %DEVSIM_TCL_BAT% (

@@ -37,26 +37,27 @@ COPY "%BASEDIR%/CMakeLists.txt" "%RELEASEDIR%"
 
 > %DEVSIM_PY_BAT% (
 @echo @echo off
+echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python2
 echo SET PYTHONHOME=%ANACONDAPATH%/python2
 echo call %DEVSIM_PY_EXE% %%*
-echo SET PYTHONHOME=
 echo call conda deactivate
 )
 
 > %DEVSIM_PY3_BAT% (
 @echo @echo off
+echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python3
 echo SET PYTHONHOME=%ANACONDAPATH%/python3
 echo call %DEVSIM_PY3_EXE% %%*
-echo SET PYTHONHOME=
 echo call conda deactivate
 )
 
 > %DEVSIM_TCL_BAT% (
 @echo @echo off
+echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call %DEVSIM_TCL_EXE% %%*
 )

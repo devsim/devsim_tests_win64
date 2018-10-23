@@ -20,11 +20,12 @@ SET DEVSIM_TCL_EXE=%BASEDIR%/%TAGDIR%/bin/devsim_tcl
 SET DEVSIM_PY27_BAT=%BASEDIR%/devsim_py27.bat
 SET DEVSIM_PY37_BAT=%BASEDIR%/devsim_py37.bat
 SET DEVSIM_TCL_BAT=%BASEDIR%/devsim_tcl.bat
+SET CMAKE_EXE=%ANACONDAPATH%/python27/Library/bin/cmake
+SET CTEST_EXE=%ANACONDAPATH%/python27/Library/bin/ctest
 
 
 :: rm -rf run && mkdir run
 SET RELEASEDIR=%BASEDIR%/%TAGDIR%
-SET PYTHONPATH=%RELEASEDIR%
 SET RUNDIR=%RELEASEDIR%/run
 
 if exist "%RUNDIR%" rmdir /s /q "%RUNDIR%"
@@ -40,7 +41,7 @@ COPY "%BASEDIR%/CMakeLists.txt" "%RELEASEDIR%"
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python27
-echo SET PYTHONPATH=%DEVSIM_PY_LIB%
+echo SET PYTHONPATH=%DEVSIM_PY_LIB%;%RELEASEDIR%
 echo call python %%*
 )
 
@@ -50,7 +51,7 @@ echo call python %%*
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python37
-echo SET PYTHONPATH=%DEVSIM_PY_LIB%
+echo SET PYTHONPATH=%DEVSIM_PY_LIB%;%RELEASEDIR%
 echo call python %%*
 )
 
@@ -58,9 +59,10 @@ echo call python %%*
 @echo @echo off
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
+echo call conda activate python27
 echo call %DEVSIM_TCL_EXE% %%*
 )
 
 cd %RUNDIR%
-cmake -DDEVSIM_TEST_GOLDENDIR=%GOLDENDIR% -DDEVSIM_PY_TEST_EXE=%DEVSIM_PY27_BAT% -DDEVSIM_PY3_TEST_EXE=%DEVSIM_PY37_BAT% -DDEVSIM_TCL_TEST_EXE=%DEVSIM_TCL_BAT% %RELEASEDIR%
-ctest -j2
+%CMAKE_EXE% -DDEVSIM_TEST_GOLDENDIR=%GOLDENDIR% -DDEVSIM_PY_TEST_EXE=%DEVSIM_PY27_BAT% -DDEVSIM_PY3_TEST_EXE=%DEVSIM_PY37_BAT% -DDEVSIM_TCL_TEST_EXE=%DEVSIM_TCL_BAT% %RELEASEDIR%
+%CTEST_EXE% -j2

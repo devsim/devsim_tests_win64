@@ -533,5 +533,5 @@ Iteration: 1
   Device: "MyDevice"	RelError: 1.18372e-12	AbsError: 1.74754e-13
     Region: "air"	RelError: 1.18372e-12	AbsError: 1.74754e-13
       Equation: "PotentialEquation"	RelError: 1.18372e-12	AbsError: 1.74754e-13
-3.35017166004e-12
--3.35017166004e-12
+3.3501716600385765e-12
+-3.3501716600385777e-12

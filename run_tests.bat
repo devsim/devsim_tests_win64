@@ -41,7 +41,7 @@ COPY "%BASEDIR%/CMakeLists.txt" "%RELEASEDIR%"
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python27
-echo SET PYTHONPATH=%DEVSIM_PY_LIB%;%RELEASEDIR%
+echo SET PYTHONPATH=%DEVSIM_PY_LIB%
 echo call python %%*
 )
 
@@ -51,7 +51,7 @@ echo call python %%*
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
 echo call conda activate python37
-echo SET PYTHONPATH=%DEVSIM_PY_LIB%;%RELEASEDIR%
+echo SET PYTHONPATH=%DEVSIM_PY_LIB%
 echo call python %%*
 )
 

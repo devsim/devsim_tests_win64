@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -552,8 +552,8 @@ Iteration: 0
       Equation: "ElectronContinuityEquation"	RelError: 3.87342e-15	AbsError: 1.52038e+02
       Equation: "HoleContinuityEquation"	RelError: 3.88948e-15	AbsError: 2.07507e+02
       Equation: "PotentialEquation"	RelError: 2.27826e-13	AbsError: 6.58453e-17
-top	0.0	-6.34131668409e-25	-2.15588544345e-09	-2.15588544345e-09
-bot	0.0	-4.70468205499e-08	-2.04511041625e-24	-4.70468205499e-08
+top	0.0	-6.341316684088661e-25	-2.1558854434500004e-09	-2.1558854434500012e-09
+bot	0.0	-4.7046820549940125e-08	-2.0451104162455877e-24	-4.7046820549940125e-08
 Region "MyRegion" on device "MyDevice" has equations 0:1394
 Device "MyDevice" has equations 0:1394
 number of equations 1395
@@ -617,8 +617,8 @@ Iteration: 9
       Equation: "ElectronContinuityEquation"	RelError: 1.97361e-13	AbsError: 4.39103e+03
       Equation: "HoleContinuityEquation"	RelError: 2.80815e-13	AbsError: 1.85888e+03
       Equation: "PotentialEquation"	RelError: 3.08503e-12	AbsError: 3.76644e-15
-top	0.1	2.77590536308e-09	1.13147225967e-07	1.1592313133e-07
-bot	0.0	-1.17372668433e-07	-1.38812155524e-09	-1.18760789988e-07
+top	0.1	2.7759053630803625e-09	1.1314722596688752e-07	1.1592313132996789e-07
+bot	0.0	-1.1737266843262372e-07	-1.3881215552428604e-09	-1.1876078998786658e-07
 Region "MyRegion" on device "MyDevice" has equations 0:1394
 Device "MyDevice" has equations 0:1394
 number of equations 1395
@@ -676,8 +676,8 @@ Iteration: 8
       Equation: "ElectronContinuityEquation"	RelError: 2.04532e-13	AbsError: 7.34519e+03
       Equation: "HoleContinuityEquation"	RelError: 2.46749e-13	AbsError: 3.28331e+04
       Equation: "PotentialEquation"	RelError: 4.11975e-12	AbsError: 6.29204e-15
-top	0.2	1.28329442858e-07	1.00800717514e-06	1.136336618e-06
-bot	0.0	-1.03513898029e-06	-6.41720126802e-08	-1.09931099297e-06
+top	0.2	1.2832944285759648e-07	1.0080071751381564e-06	1.1363366179957529e-06
+bot	0.0	-1.0351389802923312e-06	-6.417201268019944e-08	-1.0993109929725307e-06
 Region "MyRegion" on device "MyDevice" has equations 0:1394
 Device "MyDevice" has equations 0:1394
 number of equations 1395
@@ -735,8 +735,8 @@ Iteration: 8
       Equation: "ElectronContinuityEquation"	RelError: 1.72424e-12	AbsError: 1.72392e+06
       Equation: "HoleContinuityEquation"	RelError: 1.10305e-12	AbsError: 6.11534e+05
       Equation: "PotentialEquation"	RelError: 2.22350e-12	AbsError: 4.39975e-14
-top	0.3	5.80684829016e-06	1.01246124793e-05	1.59314607694e-05
-bot	0.0	-1.30679316815e-05	-2.90373085355e-06	-1.5971662535e-05
+top	0.30000000000000004	5.806848290161061e-06	1.0124612479256645e-05	1.5931460769417704e-05
+bot	0.0	-1.306793168148876e-05	-2.903730853546265e-06	-1.5971662535035027e-05
 Region "MyRegion" on device "MyDevice" has equations 0:1394
 Device "MyDevice" has equations 0:1394
 number of equations 1395
@@ -782,8 +782,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 6.39291e-12	AbsError: 6.39214e+06
       Equation: "HoleContinuityEquation"	RelError: 4.09114e-12	AbsError: 2.57688e+02
       Equation: "PotentialEquation"	RelError: 3.46839e-13	AbsError: 1.65392e-13
-top	0.4	0.000262212527169	0.000186540405211	0.00044875293238
-bot	0.0	-0.000317701686484	-0.000131119055845	-0.000448820742329
+top	0.4	0.00026221252716910877	0.00018654040521116932	0.0004487529323802781
+bot	0.0	-0.00031770168648369084	-0.00013111905584502578	-0.0004488207423287166
 Region "MyRegion" on device "MyDevice" has equations 0:1394
 Device "MyDevice" has equations 0:1394
 number of equations 1395
@@ -829,5 +829,5 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 4.03922e-14	AbsError: 3.00546e+04
       Equation: "HoleContinuityEquation"	RelError: 7.67377e-14	AbsError: 2.71784e+02
       Equation: "PotentialEquation"	RelError: 1.59984e-15	AbsError: 7.62898e-16
-top	0.5	0.0118105431753	0.00634461199801	0.0181551551733
-bot	0.0	-0.0122494226315	-0.00590579888093	-0.0181552215125
+top	0.5	0.011810543175282663	0.006344611998005865	0.01815515517328853
+bot	0.0	-0.012249422631532744	-0.0059057988809275725	-0.018155221512460316

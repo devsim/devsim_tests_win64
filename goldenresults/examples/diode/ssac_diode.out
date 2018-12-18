@@ -3,7 +3,7 @@
 
  DEVSIM
 
- Version: Beta 0.01
+ Version: 1.0.0
 
  Copyright 2009-2018 Devsim LLC
 
@@ -113,7 +113,7 @@ Iteration: 0
 Circuit Solution:
 V1.I	1.32349e-22
 top_bias	0
-bot	0.0	6.14280668542e-09	1.65668203931e-24	6.14280668542e-09
+bot	0.0	6.1428066854218015e-09	1.6566820393118344e-24	6.142806685421803e-09
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -136,7 +136,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-2.98023e-07,1.3411e-06)
 top_bias	(1,0)
-capacitance 0.0 2.13443591851e-07
+capacitance 0.0 2.1344359185098773e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -204,7 +204,7 @@ Iteration: 7
 Circuit Solution:
 V1.I	-4.28018e-09
 top_bias	0.1
-bot	0.0	-2.04366647259e-08	-1.38872658224e-09	-2.18253913081e-08
+bot	0.0	-2.0436664725887448e-08	-1.388726582239862e-09	-2.182539130812731e-08
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -219,7 +219,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-4.17233e-07,1.36904e-06)
 top_bias	(1,0)
-capacitance 0.1 2.17890333348e-07
+capacitance 0.1 2.178903333478833e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -287,7 +287,7 @@ Iteration: 7
 Circuit Solution:
 V1.I	-1.93437e-07
 top_bias	0.2
-bot	0.0	-1.08095030803e-07	-6.41988690853e-08	-1.72293899888e-07
+bot	0.0	-1.0809503080262615e-07	-6.41988690852875e-08	-1.7229389988791364e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -302,7 +302,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-7.15256e-06,1.48491e-06)
 top_bias	(1,0)
-capacitance 0.2 2.36330414493e-07
+capacitance 0.2 2.3633041449282216e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -370,7 +370,7 @@ Iteration: 7
 Circuit Solution:
 V1.I	-8.71728e-06
 top_bias	0.3
-bot	0.0	-5.80555075445e-06	-2.90489765995e-06	-8.7104484144e-06
+bot	0.0	-5.805550754451786e-06	-2.904897659949511e-06	-8.710448414401296e-06
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -385,7 +385,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.000332057,1.69066e-06)
 top_bias	(1,0)
-capacitance 0.3 2.69076949143e-07
+capacitance 0.30000000000000004 2.6907694914324155e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -446,7 +446,7 @@ Iteration: 6
 Circuit Solution:
 V1.I	-0.000393366
 top_bias	0.4
-bot	0.0	-0.000262165911866	-0.000131169633098	-0.000393335544965
+bot	0.0	-0.00026216591186606217	-0.00013116963309847687	-0.00039333554496453907
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -461,7 +461,7 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.0149829,1.76261e-06)
 top_bias	(1,0)
-capacitance 0.4 2.8052801446e-07
+capacitance 0.4 2.8052801446014174e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -522,7 +522,7 @@ Iteration: 6
 Circuit Solution:
 V1.I	-0.0177159
 top_bias	0.5
-bot	0.0	-0.0118079690348	-0.00590798459506	-0.0177159536298
+bot	0.0	-0.011807969034765367	-0.005907984595063277	-0.017715953629828644
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -537,11 +537,11 @@ number of equations 773
 Circuit AC Solution:
 V1.I	(-0.67425,1.96385e-06)
 top_bias	(1,0)
-capacitance 0.5 3.12556595349e-07
-V1.I	dcop	-0.0177159276828
-V1.I	dcop_prev	-0.000393365723862
-V1.I	ssac_imag	1.96384934876e-06
-V1.I	ssac_real	-0.674249649048
+capacitance 0.5 3.1255659534853126e-07
+V1.I	dcop	-0.0177159276828066
+V1.I	dcop_prev	-0.00039336572386223823
+V1.I	ssac_imag	1.9638493487619845e-06
+V1.I	ssac_real	-0.6742496490478516
 top_bias	dcop	0.5
 top_bias	dcop_prev	0.4
 top_bias	ssac_imag	0.0

@@ -1,15 +1,3 @@
-
-----------------------------------------
-
- DEVSIM
-
- Version: 1.1.0
-
- Copyright 2009-2019 Devsim LLC
-
-----------------------------------------
-
-
 mid
 bot
  (region: MyRegion)
@@ -126,8 +114,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 8.72704e-15	AbsError: 6.77328e+01
       Equation: "HoleContinuityEquation"	RelError: 6.77079e-14	AbsError: 5.05787e+01
       Equation: "PotentialEquation"	RelError: 3.43778e-16	AbsError: 3.03138e-17
-top	0.1	3.07504158116e-07	1.33453657998e-09	3.08838694696e-07
-bot	0.0	-3.03730397871e-07	-9.84259543836e-10	-3.04714657415e-07
+top	0.1	3.075041581159487e-07	1.3345365799800001e-09	3.088386946959287e-07
+bot	0.0	-3.0373039787111213e-07	-9.842595438360061e-10	-3.0471465741494814e-07
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -173,8 +161,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 2.45635e-15	AbsError: 7.39478e+01
       Equation: "HoleContinuityEquation"	RelError: 1.56531e-13	AbsError: 1.35397e+02
       Equation: "PotentialEquation"	RelError: 7.83212e-16	AbsError: 3.04199e-17
-top	0.2	1.25936628491e-05	4.91483893794e-08	1.26428112385e-05
-bot	0.0	-1.25942588045e-05	-4.66052600349e-08	-1.26408640646e-05
+top	0.2	1.2593662849118007e-05	4.9148389379400006e-08	1.2642811238497407e-05
+bot	0.0	-1.2594258804540456e-05	-4.6605260034866486e-08	-1.2640864064575323e-05
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -220,8 +208,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 1.46369e-13	AbsError: 1.46267e+05
       Equation: "HoleContinuityEquation"	RelError: 6.65508e-13	AbsError: 1.26009e+03
       Equation: "PotentialEquation"	RelError: 7.99300e-15	AbsError: 3.81139e-15
-top	0.3	0.000488215314706	2.18260268354e-06	0.00049039791739
-bot	0.0	-0.000488236806152	-2.16270268615e-06	-0.000490399508838
+top	0.30000000000000004	0.00048821531470611486	2.18260268353536e-06	0.0004903979173896502
+bot	0.0	-0.0004882368061515951	-2.162702686152147e-06	-0.0004903995088377472
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -273,8 +261,8 @@ Iteration: 7
       Equation: "ElectronContinuityEquation"	RelError: 1.66781e-15	AbsError: 1.43992e+02
       Equation: "HoleContinuityEquation"	RelError: 9.45987e-16	AbsError: 9.91564e+00
       Equation: "PotentialEquation"	RelError: 2.33790e-16	AbsError: 2.87259e-17
-top	0.4	0.0180470724679	0.000100482347079	0.018147554815
-bot	0.0	-0.0180472318866	-0.00010032238604	-0.0181475542727
+top	0.4	0.01804707246794145	0.00010048234707917977	0.01814755481502063
+bot	0.0	-0.018047231886641445	-0.0001003223860400928	-0.018147554272681537
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -326,8 +314,8 @@ Iteration: 7
       Equation: "ElectronContinuityEquation"	RelError: 1.97374e-15	AbsError: 1.25262e+02
       Equation: "HoleContinuityEquation"	RelError: 1.22765e-15	AbsError: 1.25060e+01
       Equation: "PotentialEquation"	RelError: 1.02540e-16	AbsError: 3.12691e-17
-top	0.5	0.625078748581	0.0046539219963	0.629732670577
-bot	0.0	-0.62508009413	-0.00465257268482	-0.629732666815
+top	0.5	0.6250787485809601	0.0046539219963018024	0.6297326705772619
+bot	0.0	-0.6250800941299215	-0.004652572684817538	-0.629732666814739
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -379,8 +367,8 @@ Iteration: 7
       Equation: "ElectronContinuityEquation"	RelError: 1.15154e-15	AbsError: 1.56382e+02
       Equation: "HoleContinuityEquation"	RelError: 1.57316e-15	AbsError: 3.18374e+00
       Equation: "PotentialEquation"	RelError: 7.96906e-17	AbsError: 2.98887e-17
-top	0.6	19.7988628951	0.215550884998	20.0144137801
-bot	0.0	-19.798875063	-0.215538718979	-20.0144137819
+top	0.6	19.798862895130046	0.21555088499843386	20.01441378012848
+bot	0.0	-19.798875062953496	-0.21553871897887167	-20.01441378193237
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -426,8 +414,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 4.69240e-13	AbsError: 3.14123e+03
       Equation: "HoleContinuityEquation"	RelError: 3.77250e-13	AbsError: 7.86959e+03
       Equation: "PotentialEquation"	RelError: 7.54261e-15	AbsError: 2.30131e-15
-top	0.7	553.606596132	9.93553827252	563.542134405
-bot	0.0	-553.606715969	-9.93541843875	-563.542134408
+top	0.7	553.6065961321844	9.935538272522598	563.5421344047071
+bot	0.0	-553.6067159690157	-9.935418438752183	-563.5421344077679
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -473,8 +461,8 @@ Iteration: 6
       Equation: "ElectronContinuityEquation"	RelError: 5.48647e-13	AbsError: 6.96625e+03
       Equation: "HoleContinuityEquation"	RelError: 3.23164e-14	AbsError: 1.65163e+03
       Equation: "PotentialEquation"	RelError: 3.98360e-15	AbsError: 1.53245e-15
-top	0.8	12022.1209478	436.436830227	12458.5577781
-bot	0.0	-12022.1221696	-436.435608509	-12458.5577781
+top	0.7999999999999999	12022.120947834146	436.43683022668296	12458.55777806083
+bot	0.0	-12022.12216955348	-436.4356085086485	-12458.55777806213
 Region "MyRegion" on device "MyDevice" has equations 0:80
 Device "MyDevice" has equations 0:80
 number of equations 81
@@ -526,5 +514,5 @@ Iteration: 7
       Equation: "ElectronContinuityEquation"	RelError: 3.20066e-16	AbsError: 1.18598e+02
       Equation: "HoleContinuityEquation"	RelError: 3.39355e-16	AbsError: 5.20118e+01
       Equation: "PotentialEquation"	RelError: 6.22325e-17	AbsError: 3.00167e-17
-top	0.9	123427.23944	11619.6671868	135046.906627
-bot	0.0	-123427.247764	-11619.6588631	-135046.906627
+top	0.8999999999999999	123427.23944033081	11619.667186826073	135046.9066271569
+bot	0.0	-123427.24776405607	-11619.658863097977	-135046.90662715404

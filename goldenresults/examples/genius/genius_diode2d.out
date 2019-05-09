@@ -1,15 +1,3 @@
-
-----------------------------------------
-
- DEVSIM
-
- Version: 1.1.0
-
- Copyright 2009-2019 Devsim LLC
-
-----------------------------------------
-
-
 Traceback (most recent call last):
   File "genius_diode2d.py", line 16, in <module>
     from python_packages.simple_physics import *

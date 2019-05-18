@@ -68,13 +68,13 @@ Iteration: 1
       Equation: "ElectronContinuityEquation"	RelError: 1.59018e-21	AbsError: 1.59018e-05
       Equation: "PotentialEquation"	RelError: 4.11750e-13	AbsError: 4.11856e-23
 Contact: top
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Contact: bot
-Electron 0.0
+Electron 0
 Hole 0
-Total 0.0
+Total 0
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -104,13 +104,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.62108e-21	AbsError: 1.62108e-05
       Equation: "PotentialEquation"	RelError: 3.25261e-15	AbsError: 6.50521e-18
 Contact: top
-Electron 0.00640000000000066
+Electron 0.0064
 Hole 0
-Total 0.00640000000000066
+Total 0.0064
 Contact: bot
-Electron -0.006400000000000622
+Electron -0.0064
 Hole 0
-Total -0.006400000000000622
+Total -0.0064
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -140,13 +140,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.65261e-21	AbsError: 1.65261e-05
       Equation: "PotentialEquation"	RelError: 1.38236e-15	AbsError: 5.52943e-18
 Contact: top
-Electron 0.01280000000000132
+Electron 0.0128
 Hole 0
-Total 0.01280000000000132
+Total 0.0128
 Contact: bot
-Electron -0.01280000000000131
+Electron -0.0128
 Hole 0
-Total -0.01280000000000131
+Total -0.0128
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -176,13 +176,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.68392e-21	AbsError: 1.68392e-05
       Equation: "PotentialEquation"	RelError: 8.31221e-16	AbsError: 4.98733e-18
 Contact: top
-Electron 0.019200000000001917
+Electron 0.0192
 Hole 0
-Total 0.019200000000001917
+Total 0.0192
 Contact: bot
-Electron -0.019200000000001934
+Electron -0.0192
 Hole 0
-Total -0.019200000000001934
+Total -0.0192
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -212,13 +212,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.71635e-21	AbsError: 1.71635e-05
       Equation: "PotentialEquation"	RelError: 2.23616e-15	AbsError: 8.94463e-18
 Contact: top
-Electron 0.025600000000002544
+Electron 0.0256
 Hole 0
-Total 0.025600000000002544
+Total 0.0256
 Contact: bot
-Electron -0.02560000000000252
+Electron -0.0256
 Hole 0
-Total -0.02560000000000252
+Total -0.0256
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -248,13 +248,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.74855e-21	AbsError: 1.74855e-05
       Equation: "PotentialEquation"	RelError: 4.33681e-16	AbsError: 1.08420e-17
 Contact: top
-Electron 0.03200000000000317
+Electron 0.032
 Hole 0
-Total 0.03200000000000317
+Total 0.032
 Contact: bot
-Electron -0.03200000000000321
+Electron -0.032
 Hole 0
-Total -0.03200000000000321
+Total -0.032
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -284,13 +284,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.78139e-21	AbsError: 1.78139e-05
       Equation: "PotentialEquation"	RelError: 2.62016e-16	AbsError: 6.28838e-18
 Contact: top
-Electron 0.038400000000003855
+Electron 0.0384
 Hole 0
-Total 0.038400000000003855
+Total 0.0384
 Contact: bot
-Electron -0.03840000000000385
+Electron -0.0384
 Hole 0
-Total -0.03840000000000385
+Total -0.0384
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -320,13 +320,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.81511e-21	AbsError: 1.81511e-05
       Equation: "PotentialEquation"	RelError: 5.42095e-16	AbsError: 4.33680e-18
 Contact: top
-Electron 0.04480000000000445
+Electron 0.0448
 Hole 0
-Total 0.04480000000000445
+Total 0.0448
 Contact: bot
-Electron -0.044800000000004496
+Electron -0.0448
 Hole 0
-Total -0.044800000000004496
+Total -0.0448
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -356,13 +356,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.84798e-21	AbsError: 1.84798e-05
       Equation: "PotentialEquation"	RelError: 5.28549e-16	AbsError: 8.45679e-18
 Contact: top
-Electron 0.0512000000000051
+Electron 0.0512
 Hole 0
-Total 0.0512000000000051
+Total 0.0512
 Contact: bot
-Electron -0.05120000000000511
+Electron -0.0512
 Hole 0
-Total -0.05120000000000511
+Total -0.0512
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -392,13 +392,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.88305e-21	AbsError: 1.88305e-05
       Equation: "PotentialEquation"	RelError: 7.22797e-16	AbsError: 8.67362e-18
 Contact: top
-Electron 0.05760000000000577
+Electron 0.0576
 Hole 0
-Total 0.05760000000000577
+Total 0.0576
 Contact: bot
-Electron -0.05760000000000572
+Electron -0.0576
 Hole 0
-Total -0.05760000000000572
+Total -0.0576
 Region "MySi1" on device "MyDevice" has equations 0:11
 Region "MySi2" on device "MyDevice" has equations 12:23
 Device "MyDevice" has equations 0:23
@@ -428,13 +428,13 @@ Iteration: 2
       Equation: "ElectronContinuityEquation"	RelError: 1.91686e-21	AbsError: 1.91686e-05
       Equation: "PotentialEquation"	RelError: 4.55361e-16	AbsError: 7.58942e-18
 Contact: top
-Electron 0.06400000000000647
+Electron 0.064
 Hole 0
-Total 0.06400000000000647
+Total 0.064
 Contact: bot
-Electron -0.06400000000000637
+Electron -0.064
 Hole 0
-Total -0.06400000000000637
+Total -0.064
 Electrons
 1.00000e+16
 1.00000e+16
@@ -461,12 +461,6 @@ ElectronCurrent
 6.40000e-02
 6.40000e-02
 6.40000e-02
-topnodeelectroncurrent
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
 Electrons
 1.00000e+16
 1.00000e+16
@@ -488,12 +482,6 @@ ElectricField
 1.00000e-01
 1.00000e-01
 ElectronCurrent
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-6.40000e-02
-topnodeelectroncurrent
 6.40000e-02
 6.40000e-02
 6.40000e-02

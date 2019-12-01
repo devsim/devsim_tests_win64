@@ -11,14 +11,13 @@ SET TAG=%1
 SET TAGDIR=devsim_win64_%1
 
 :: start shell in anaconda environment with cmake installed
-SET ANACONDAPATH=%USERPROFILE%/Miniconda3/envs
 
 :: conda install numpy mkl tk for both python2 and python3 environments
 SET DEVSIM_PY_LIB=%BASEDIR%/%TAGDIR%/lib
 
 SET DEVSIM_PY37_BAT=%BASEDIR%/devsim_py37.bat
-SET CMAKE_EXE=%ANACONDAPATH%/python37/Library/bin/cmake
-SET CTEST_EXE=%ANACONDAPATH%/python37/Library/bin/ctest
+SET CMAKE_EXE=cmake
+SET CTEST_EXE=ctest
 
 
 :: rm -rf run && mkdir run

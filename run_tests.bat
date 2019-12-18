@@ -8,7 +8,7 @@ SET "BASEDIR=%cd%"
 SET "BASEDIR=%BASEDIR:\=/%"
 
 SET TAG=%1
-SET TAGDIR=devsim_win64_%1
+SET TAGDIR=devsim_msys_%1
 
 :: start shell in anaconda environment with cmake installed
 
@@ -36,7 +36,6 @@ COPY "%BASEDIR%/CMakeLists.txt" "%RELEASEDIR%"
 @echo @echo off
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
-#echo call conda activate python37
 echo SET PYTHONPATH=%DEVSIM_PY_LIB%
 echo SET PYTHONIOENCODING=utf-8
 echo call python %%*

@@ -1,5 +1,6 @@
 
 @SETLOCAL
+SET PYTHONIOENCODING=utf-8
 ::@ECHO OFF
 :: SET PATHS
 SET "BASEDIR=%cd%"
@@ -36,7 +37,6 @@ COPY "%BASEDIR%/CMakeLists.txt" "%RELEASEDIR%"
 @echo @echo off
 echo @setlocal
 echo SET MKL_NUM_THREADS=1
-#echo call conda activate python37
 echo SET PYTHONPATH=%DEVSIM_PY_LIB%
 echo SET PYTHONIOENCODING=utf-8
 echo call python %%*

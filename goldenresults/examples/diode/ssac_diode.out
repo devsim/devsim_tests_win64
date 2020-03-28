@@ -117,14 +117,14 @@ Device: MyDevice	Region: MyRegion	Creating: Holes_Real
 Device: MyDevice	Region: MyRegion	Creating: Holes_Imag
 Device: MyDevice	Region: MyRegion	Creating: Potential_Real
 Device: MyDevice	Region: MyRegion	Creating: Potential_Imag
-Setting V1.I = (-2.48635e-07,1.30688e-06)
+Setting V1.I = (-2.48635e-07,-1.31147e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(-2.48635e-07,1.30688e-06)
+V1.I	(-2.48635e-07,-1.31147e-06)
 top_bias	(1,0)
-capacitance 0.0 2.0799690294557697e-07
+capacitance 0.0 2.0872714164320285e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -200,14 +200,14 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 top_bias	1	default
 Circuit  has equations 771:772
-Setting V1.I = (6.39388e-07,1.38736e-06)
+Setting V1.I = (6.39388e-07,-1.39084e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(6.39388e-07,1.38736e-06)
+V1.I	(6.39388e-07,-1.39084e-06)
 top_bias	(1,0)
-capacitance 0.1 2.2080541288464207e-07
+capacitance 0.1 2.2135866295842456e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -283,14 +283,14 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 top_bias	1	default
 Circuit  has equations 771:772
-Setting V1.I = (-7.67302e-06,1.48401e-06)
+Setting V1.I = (-7.67302e-06,-1.48661e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(-7.67302e-06,1.48401e-06)
+V1.I	(-7.67302e-06,-1.48661e-06)
 top_bias	(1,0)
-capacitance 0.2 2.3618801548534133e-07
+capacitance 0.2 2.3660132787734273e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -359,14 +359,14 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 top_bias	1	default
 Circuit  has equations 771:772
-Setting V1.I = (-0.000332545,1.60344e-06)
+Setting V1.I = (-0.000332545,-1.60535e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(-0.000332545,1.60344e-06)
+V1.I	(-0.000332545,-1.60535e-06)
 top_bias	(1,0)
-capacitance 0.30000000000000004 2.5519595605618825e-07
+capacitance 0.30000000000000004 2.554996759068321e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -435,14 +435,14 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 top_bias	1	default
 Circuit  has equations 771:772
-Setting V1.I = (-0.0149818,1.75664e-06)
+Setting V1.I = (-0.0149818,-1.75801e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(-0.0149818,1.75664e-06)
+V1.I	(-0.0149818,-1.75801e-06)
 top_bias	(1,0)
-capacitance 0.4 2.7957743044171976e-07
+capacitance 0.4 2.79796248745913e-07
 Region "MyRegion" on device "MyDevice" has equations 0:770
 Device "MyDevice" has equations 0:770
 0	18446744073709551615	ground
@@ -511,17 +511,17 @@ GND	18446744073709551615	ground
 V1.I	0	mna
 top_bias	1	default
 Circuit  has equations 771:772
-Setting V1.I = (-0.674249,1.96366e-06)
+Setting V1.I = (-0.674249,-1.96462e-06)
 Setting top_bias = (1,0)
 AC Iteration:
 number of equations 773
 Circuit AC Solution:
-V1.I	(-0.674249,1.96366e-06)
+V1.I	(-0.674249,-1.96462e-06)
 top_bias	(1,0)
-capacitance 0.5 3.1252579719436617e-07
+capacitance 0.5 3.1267968849143385e-07
 V1.I	dcop	-0.017715927682806637
 V1.I	dcop_prev	-0.0003933657238622302
-V1.I	ssac_imag	1.9636558384156976e-06
+V1.I	ssac_imag	-1.964624424582867e-06
 V1.I	ssac_real	-0.6742492820241281
 top_bias	dcop	0.5
 top_bias	dcop_prev	0.4

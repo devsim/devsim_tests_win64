@@ -1,0 +1,5 @@
+Extended precision support is not available with this version
+Traceback (most recent call last):
+  File "GaussFermi_float128.py", line 22, in <module>
+    sys.exit(0)
+NameError: name 'sys' is not defined

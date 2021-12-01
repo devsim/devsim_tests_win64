@@ -50,10 +50,6 @@ bulk body
 bulk drain
 gate gate
 bulk source
-Region "bulk" on device "mos2d" has equations 0:2248
-Region "gate" on device "mos2d" has equations 2249:2287
-Region "oxide" on device "mos2d" has equations 2288:2953
-Device "mos2d" has equations 0:2953
 number of equations 2954
 Iteration: 0
   Device: "mos2d"	RelError: 3.00000e+00	AbsError: 2.62036e-01
@@ -191,10 +187,6 @@ Iteration: 16
       Equation: "PotentialEquation"	RelError: 1.69579e-16	AbsError: 1.01082e-16
     Region: "oxide"	RelError: 1.27649e-16	AbsError: 7.60875e-17
       Equation: "PotentialEquation"	RelError: 1.27649e-16	AbsError: 7.60875e-17
-Region "bulk" on device "mos2d" has equations 0:2248
-Region "gate" on device "mos2d" has equations 2249:2287
-Region "oxide" on device "mos2d" has equations 2288:2953
-Device "mos2d" has equations 0:2953
 number of equations 2954
 Iteration: 0
   Device: "mos2d"	RelError: 4.94091e-15	AbsError: 1.26081e-16
@@ -208,10 +200,6 @@ Warning: Replacing equation with equation of the same name.
 Region: gate, Equation: PotentialEquation, Variable: Potential
 Warning: Replacing equation with equation of the same name.
 Region: bulk, Equation: PotentialEquation, Variable: Potential
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 9.29376e-14	AbsError: 3.90712e+05
@@ -225,13 +213,9 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.38849e-16	AbsError: 8.27644e-17
     Region: "oxide"	RelError: 1.28719e-16	AbsError: 5.46033e-17
       Equation: "PotentialEquation"	RelError: 1.28719e-16	AbsError: 5.46033e-17
-last end 0.000000e+00 5.000000e-01
+gate last end 0.000000e+00 5.000000e-01
 setting to last bias 5.000000e-01
 setting next bias 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 8.06221e+01	AbsError: 4.06183e+17
@@ -370,11 +354,7 @@ body	0.0	-1.287372884636107e-29	-7.440485873589963e-15	-7.440485873589975e-15
 drain	0.0	-2.6747120223261107e-13	3.8018006631573224e-32	-2.6747120223261107e-13
 gate	0.5	0.0	0.0	0.0
 source	0.0	-1.2037986196682616e-13	1.4170198383865649e-31	-1.2037986196682616e-13
-last end 0.000000e+00 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
+drain last end 0.000000e+00 5.000000e-01
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 2.04578e+03	AbsError: 1.89159e+17
@@ -477,11 +457,7 @@ body	0.0	-3.5327316781437036e-15	-3.522339996463849e-14	-3.875613164278219e-14
 drain	0.1	0.43758702973665115	7.508255453019185e-17	0.4375870297366512
 gate	0.5	-2.1605240168889687e-12	-1.0802620084444844e-32	-2.1605240168889687e-12
 source	0.0	-0.43758702973630564	-1.9409706063247694e-18	-0.43758702973630564
-last end 1.000000e-01 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
+drain last end 1.000000e-01 5.000000e-01
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 7.41921e+03	AbsError: 2.12887e+17
@@ -584,11 +560,7 @@ body	0.0	-4.00126212238541e-15	-7.114119286704639e-14	-7.51424549894318e-14
 drain	0.2	0.9390941752586893	7.909356812408811e-17	0.9390941752586894
 gate	0.5	-2.1605240168889687e-12	-1.0802620084444844e-32	-2.1605240168889687e-12
 source	0.0	-0.9390941752586262	-4.434214910160764e-18	-0.9390941752586262
-last end 2.000000e-01 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
+drain last end 2.000000e-01 5.000000e-01
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 2.01371e+03	AbsError: 2.31147e+17
@@ -691,11 +663,7 @@ body	0.0	-4.309689539006818e-15	-8.949836680734648e-14	-9.38080563463533e-14
 drain	0.30000000000000004	1.5344300393346129	8.183173509962318e-17	1.5344300393346129
 gate	0.5	0.0	0.0	0.0
 source	0.0	-1.5344300393346595	-7.506694758852895e-18	-1.5344300393346595
-last end 3.000000e-01 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
+drain last end 3.000000e-01 5.000000e-01
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 2.02489e+03	AbsError: 2.35466e+17
@@ -786,13 +754,9 @@ body	0.0	-4.5585062440659065e-15	-7.89056209034636e-14	-8.34641271475295e-14
 drain	0.4	2.227985513754052	8.488007901223023e-17	2.227985513754052
 gate	0.5	-2.1605240168889687e-12	-1.0802620084444844e-32	-2.1605240168889687e-12
 source	0.0	-2.2279855137539797	-1.1061395375956917e-17	-2.2279855137539797
-last end 4.000000e-01 5.000000e-01
+drain last end 4.000000e-01 5.000000e-01
 setting to last bias 5.000000e-01
 setting next bias 5.000000e-01
-Region "bulk" on device "mos2d" has equations 0:6746
-Region "gate" on device "mos2d" has equations 6747:6863
-Region "oxide" on device "mos2d" has equations 6864:7529
-Device "mos2d" has equations 0:7529
 number of equations 7530
 Iteration: 0
   Device: "mos2d"	RelError: 3.98148e+03	AbsError: 2.26424e+17

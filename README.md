@@ -19,5 +19,5 @@ preinstall.bat
 .\run_tests.bat v1.7.0
 ```
 
-In the above example, the package ``devsim_msys_v1.7.0.zip`` has been unzipped into the test directory.
+In the above example, the package ``devsim_win64_v1.7.0.zip`` has been unzipped into the test directory.
 

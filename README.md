@@ -1,4 +1,3 @@
-
 Windows 64 bit with latest Anaconda Python, and Intel MKL
 
 Please see ``run_tests.bat``.

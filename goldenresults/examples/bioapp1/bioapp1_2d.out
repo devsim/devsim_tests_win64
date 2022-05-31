@@ -34,9 +34,9 @@ Contact bot in region solution with 25 nodes
 Contact top in region solution with 25 nodes
 Adding interface dielectric_solution with 119, 119 nodes
 Adding interface dna_solution with 440, 440 nodes
-Volume dna 6.373529476563927e-20 2.0052545537930603e-13
-Volume dielectric 9.7566785698232e-12 1.1035733974877914e-08
-Volume solution 3.9777313476278645e-11 5.160562609001866e-08
+Volume dna 6.373529476563929e-20 2.0052545537930616e-13
+Volume dielectric 9.756678569823221e-12 1.1035733974877949e-08
+Volume solution 3.977731347627863e-11 5.160562609001867e-08
 number of equations 44103
 Iteration: 0
   Device: "disk"	RelError: 3.38649e+00	AbsError: 2.02298e+17
@@ -49,11 +49,11 @@ Iteration: 0
       Equation: "CationContinuityEquation"	RelError: 1.84536e-01	AbsError: 1.01149e+17
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 3.50000e+00
 Iteration: 1
-  Device: "disk"	RelError: 3.69126e+05	AbsError: 2.60274e+17
+  Device: "disk"	RelError: 3.69129e+05	AbsError: 2.60274e+17
     Region: "dielectric"	RelError: 4.41749e-01	AbsError: 3.66102e-02
       Equation: "PotentialEquation"	RelError: 4.41749e-01	AbsError: 3.66102e-02
-    Region: "dna"	RelError: 3.69108e+05	AbsError: 1.10945e-03
-      Equation: "PotentialEquation"	RelError: 3.69108e+05	AbsError: 1.10945e-03
+    Region: "dna"	RelError: 3.69111e+05	AbsError: 1.10945e-03
+      Equation: "PotentialEquation"	RelError: 3.69111e+05	AbsError: 1.10945e-03
     Region: "solution"	RelError: 1.82077e+01	AbsError: 2.60274e+17
       Equation: "AnionContinuityEquation"	RelError: 2.06683e-01	AbsError: 1.30487e+17
       Equation: "CationContinuityEquation"	RelError: 2.03357e-01	AbsError: 1.29787e+17
@@ -79,15 +79,15 @@ Iteration: 3
       Equation: "CationContinuityEquation"	RelError: 2.32459e-06	AbsError: 1.61018e+12
       Equation: "PotentialEquation"	RelError: 5.49642e-04	AbsError: 4.96317e-07
 Iteration: 4
-  Device: "disk"	RelError: 1.96933e-09	AbsError: 2.09644e+06
-    Region: "dielectric"	RelError: 1.92355e-12	AbsError: 2.41231e-13
-      Equation: "PotentialEquation"	RelError: 1.92355e-12	AbsError: 2.41231e-13
-    Region: "dna"	RelError: 1.79125e-09	AbsError: 1.09531e-14
-      Equation: "PotentialEquation"	RelError: 1.79125e-09	AbsError: 1.09531e-14
-    Region: "solution"	RelError: 1.76162e-10	AbsError: 2.09644e+06
-      Equation: "AnionContinuityEquation"	RelError: 1.88100e-12	AbsError: 1.07931e+06
-      Equation: "CationContinuityEquation"	RelError: 1.77294e-12	AbsError: 1.01713e+06
-      Equation: "PotentialEquation"	RelError: 1.72508e-10	AbsError: 2.41231e-13
+  Device: "disk"	RelError: 1.84766e-09	AbsError: 2.09782e+06
+    Region: "dielectric"	RelError: 1.74861e-12	AbsError: 2.41711e-13
+      Equation: "PotentialEquation"	RelError: 1.74861e-12	AbsError: 2.41711e-13
+    Region: "dna"	RelError: 1.68042e-09	AbsError: 1.06226e-14
+      Equation: "PotentialEquation"	RelError: 1.68042e-09	AbsError: 1.06226e-14
+    Region: "solution"	RelError: 1.65488e-10	AbsError: 2.09782e+06
+      Equation: "AnionContinuityEquation"	RelError: 1.88220e-12	AbsError: 1.08000e+06
+      Equation: "CationContinuityEquation"	RelError: 1.77415e-12	AbsError: 1.01782e+06
+      Equation: "PotentialEquation"	RelError: 1.61832e-10	AbsError: 2.41711e-13
 number of equations 44103
 Iteration: 0
   Device: "disk"	RelError: 3.33815e+03	AbsError: 1.34188e+19
@@ -141,8 +141,8 @@ Iteration: 4
       Equation: "PotentialEquation"	RelError: 5.54372e+00	AbsError: 3.87733e-03
 Iteration: 5
   Device: "disk"	RelError: 1.89115e-01	AbsError: 5.53749e+18
-    Region: "dielectric"	RelError: 8.59588e-06	AbsError: 1.60601e-08
-      Equation: "PotentialEquation"	RelError: 8.59588e-06	AbsError: 1.60601e-08
+    Region: "dielectric"	RelError: 8.59587e-06	AbsError: 1.60601e-08
+      Equation: "PotentialEquation"	RelError: 8.59587e-06	AbsError: 1.60601e-08
     Region: "dna"	RelError: 1.24785e-04	AbsError: 3.29510e-05
       Equation: "PotentialEquation"	RelError: 1.24785e-04	AbsError: 3.29510e-05
     Region: "solution"	RelError: 1.88982e-01	AbsError: 5.53749e+18
@@ -151,21 +151,21 @@ Iteration: 5
       Equation: "PotentialEquation"	RelError: 7.07496e-03	AbsError: 3.29510e-05
 Iteration: 6
   Device: "disk"	RelError: 1.05482e-04	AbsError: 1.21070e+15
-    Region: "dielectric"	RelError: 6.25982e-10	AbsError: 1.17096e-12
-      Equation: "PotentialEquation"	RelError: 6.25982e-10	AbsError: 1.17096e-12
-    Region: "dna"	RelError: 1.21356e-08	AbsError: 3.20583e-09
-      Equation: "PotentialEquation"	RelError: 1.21356e-08	AbsError: 3.20583e-09
+    Region: "dielectric"	RelError: 6.25306e-10	AbsError: 1.16987e-12
+      Equation: "PotentialEquation"	RelError: 6.25306e-10	AbsError: 1.16987e-12
+    Region: "dna"	RelError: 1.21357e-08	AbsError: 3.20583e-09
+      Equation: "PotentialEquation"	RelError: 1.21357e-08	AbsError: 3.20583e-09
     Region: "solution"	RelError: 1.05469e-04	AbsError: 1.21070e+15
       Equation: "AnionContinuityEquation"	RelError: 4.68295e-07	AbsError: 1.21070e+15
       Equation: "CationContinuityEquation"	RelError: 1.04565e-04	AbsError: 3.66787e+09
-      Equation: "PotentialEquation"	RelError: 4.35710e-07	AbsError: 3.20583e-09
+      Equation: "PotentialEquation"	RelError: 4.35693e-07	AbsError: 3.20583e-09
 Iteration: 7
-  Device: "disk"	RelError: 1.21129e-11	AbsError: 3.72483e+07
-    Region: "dielectric"	RelError: 2.24612e-13	AbsError: 3.87181e-16
-      Equation: "PotentialEquation"	RelError: 2.24612e-13	AbsError: 3.87181e-16
-    Region: "dna"	RelError: 1.95196e-15	AbsError: 5.59783e-16
-      Equation: "PotentialEquation"	RelError: 1.95196e-15	AbsError: 5.59783e-16
-    Region: "solution"	RelError: 1.18864e-11	AbsError: 3.72483e+07
-      Equation: "AnionContinuityEquation"	RelError: 1.43869e-14	AbsError: 3.72477e+07
-      Equation: "CationContinuityEquation"	RelError: 7.23111e-12	AbsError: 6.70680e+02
-      Equation: "PotentialEquation"	RelError: 4.64087e-12	AbsError: 4.58907e-16
+  Device: "disk"	RelError: 1.03325e-11	AbsError: 3.63268e+07
+    Region: "dielectric"	RelError: 2.46418e-13	AbsError: 8.22678e-16
+      Equation: "PotentialEquation"	RelError: 2.46418e-13	AbsError: 8.22678e-16
+    Region: "dna"	RelError: 9.37269e-16	AbsError: 3.86994e-16
+      Equation: "PotentialEquation"	RelError: 9.37269e-16	AbsError: 3.86994e-16
+    Region: "solution"	RelError: 1.00851e-11	AbsError: 3.63268e+07
+      Equation: "AnionContinuityEquation"	RelError: 1.40502e-14	AbsError: 3.63245e+07
+      Equation: "CationContinuityEquation"	RelError: 7.23634e-12	AbsError: 2.22911e+03
+      Equation: "PotentialEquation"	RelError: 2.83475e-12	AbsError: 8.46511e-16

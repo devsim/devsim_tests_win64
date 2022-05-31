@@ -31,21 +31,21 @@ Adding interface air_left with 62, 62 nodes
 Adding interface air_right with 62, 62 nodes
 number of equations 4634
 Iteration: 0
-  Device: "twowire"	RelError: 3.00000e+00	AbsError: 9.59905e-03
+  Device: "twowire"	RelError: 3.00000e+00	AbsError: 9.59904e-03
     Region: "air"	RelError: 1.00000e+00	AbsError: 8.06505e-03
       Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 8.06505e-03
-    Region: "left"	RelError: 1.00000e+00	AbsError: 9.59905e-03
-      Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.59905e-03
-    Region: "right"	RelError: 1.00000e+00	AbsError: 9.49732e-03
-      Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.49732e-03
+    Region: "left"	RelError: 1.00000e+00	AbsError: 9.59904e-03
+      Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.59904e-03
+    Region: "right"	RelError: 1.00000e+00	AbsError: 9.49731e-03
+      Equation: "Az_Equation"	RelError: 1.00000e+00	AbsError: 9.49731e-03
 Iteration: 1
-  Device: "twowire"	RelError: 8.63065e-11	AbsError: 1.88850e-16
-    Region: "air"	RelError: 8.62765e-11	AbsError: 1.62708e-16
-      Equation: "Az_Equation"	RelError: 8.62765e-11	AbsError: 1.62708e-16
-    Region: "left"	RelError: 5.06841e-15	AbsError: 4.22574e-17
-      Equation: "Az_Equation"	RelError: 5.06841e-15	AbsError: 4.22574e-17
-    Region: "right"	RelError: 2.49275e-14	AbsError: 1.88850e-16
-      Equation: "Az_Equation"	RelError: 2.49275e-14	AbsError: 1.88850e-16
+  Device: "twowire"	RelError: 6.35583e-11	AbsError: 1.42830e-16
+    Region: "air"	RelError: 6.35321e-11	AbsError: 1.38065e-16
+      Equation: "Az_Equation"	RelError: 6.35321e-11	AbsError: 1.38065e-16
+    Region: "left"	RelError: 1.98714e-14	AbsError: 1.42830e-16
+      Equation: "Az_Equation"	RelError: 1.98714e-14	AbsError: 1.42830e-16
+    Region: "right"	RelError: 6.33325e-15	AbsError: 5.20415e-17
+      Equation: "Az_Equation"	RelError: 6.33325e-15	AbsError: 5.20415e-17
 ElementNodeVolume 2.002482e+02
 NodeVolume 4.004963e+02
 ElementNodeVolume 1.570720e-02

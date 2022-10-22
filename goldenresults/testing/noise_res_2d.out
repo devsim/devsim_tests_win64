@@ -50,70 +50,46 @@ Iteration: 0
     Region: "MyRegion"	RelError: 2.46191e-06	AbsError: 9.92000e+02
       Equation: "ElectronContinuityEquation"	RelError: 9.92000e-15	AbsError: 9.92000e+02
       Equation: "PotentialEquation"	RelError: 2.46191e-06	AbsError: 2.46192e-16
-  Circuit: 	RelError: 3.69779e-22	AbsError: 3.69779e-32
+  Circuit: 	RelError: 1.84889e-22	AbsError: 1.84889e-32
 Iteration: 1
-  Device: "MyDevice"	RelError: 1.90726e-08	AbsError: 1.24102e+01
-    Region: "MyRegion"	RelError: 1.90726e-08	AbsError: 1.24102e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.24102e-16	AbsError: 1.24102e+01
-      Equation: "PotentialEquation"	RelError: 1.90726e-08	AbsError: 1.90726e-18
-  Circuit: 	RelError: 2.51955e-07	AbsError: 2.51955e-17
+  Device: "MyDevice"	RelError: 2.08277e-08	AbsError: 1.24345e+01
+    Region: "MyRegion"	RelError: 2.08277e-08	AbsError: 1.24345e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.24345e-16	AbsError: 1.24345e+01
+      Equation: "PotentialEquation"	RelError: 2.08277e-08	AbsError: 2.08278e-18
+  Circuit: 	RelError: 2.78477e-07	AbsError: 2.78477e-17
 Iteration: 2
-  Device: "MyDevice"	RelError: 1.74033e-08	AbsError: 1.43689e+01
-    Region: "MyRegion"	RelError: 1.74033e-08	AbsError: 1.43689e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.43689e-16	AbsError: 1.43689e+01
-      Equation: "PotentialEquation"	RelError: 1.74033e-08	AbsError: 1.74033e-18
-  Circuit: 	RelError: 7.95648e-07	AbsError: 7.95648e-17
+  Device: "MyDevice"	RelError: 1.69630e-08	AbsError: 1.64983e+01
+    Region: "MyRegion"	RelError: 1.69630e-08	AbsError: 1.64983e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.64983e-16	AbsError: 1.64983e+01
+      Equation: "PotentialEquation"	RelError: 1.69630e-08	AbsError: 1.69630e-18
+  Circuit: 	RelError: 5.56953e-07	AbsError: 5.56954e-17
 Iteration: 3
-  Device: "MyDevice"	RelError: 9.25162e-09	AbsError: 1.70549e+01
-    Region: "MyRegion"	RelError: 9.25162e-09	AbsError: 1.70549e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.70549e-16	AbsError: 1.70549e+01
-      Equation: "PotentialEquation"	RelError: 9.25162e-09	AbsError: 9.25164e-19
-  Circuit: 	RelError: 4.11085e-07	AbsError: 4.11085e-17
-Iteration: 4
-  Device: "MyDevice"	RelError: 2.33342e-08	AbsError: 1.63589e+01
-    Region: "MyRegion"	RelError: 2.33342e-08	AbsError: 1.63589e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.63589e-16	AbsError: 1.63589e+01
-      Equation: "PotentialEquation"	RelError: 2.33342e-08	AbsError: 2.33342e-18
-  Circuit: 	RelError: 2.25434e-07	AbsError: 2.25434e-17
-Iteration: 5
-  Device: "MyDevice"	RelError: 1.72238e-08	AbsError: 1.60311e+01
-    Region: "MyRegion"	RelError: 1.72238e-08	AbsError: 1.60311e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.60311e-16	AbsError: 1.60311e+01
-      Equation: "PotentialEquation"	RelError: 1.72238e-08	AbsError: 1.72238e-18
-  Circuit: 	RelError: 3.18259e-07	AbsError: 3.18259e-17
-Iteration: 6
-  Device: "MyDevice"	RelError: 2.13513e-08	AbsError: 1.39714e+01
-    Region: "MyRegion"	RelError: 2.13513e-08	AbsError: 1.39714e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.39714e-16	AbsError: 1.39714e+01
-      Equation: "PotentialEquation"	RelError: 2.13513e-08	AbsError: 2.13513e-18
-  Circuit: 	RelError: 1.59130e-07	AbsError: 1.59130e-17
-Iteration: 7
-  Device: "MyDevice"	RelError: 1.41605e-08	AbsError: 1.54859e+01
-    Region: "MyRegion"	RelError: 1.41605e-08	AbsError: 1.54859e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.54859e-16	AbsError: 1.54859e+01
-      Equation: "PotentialEquation"	RelError: 1.41605e-08	AbsError: 1.41605e-18
-  Circuit: 	RelError: 3.97824e-08	AbsError: 3.97824e-18
+  Device: "MyDevice"	RelError: 4.10301e-08	AbsError: 1.64214e+01
+    Region: "MyRegion"	RelError: 4.10301e-08	AbsError: 1.64214e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.64214e-16	AbsError: 1.64214e+01
+      Equation: "PotentialEquation"	RelError: 4.10301e-08	AbsError: 4.10302e-18
+  Circuit: 	RelError: 9.28256e-08	AbsError: 9.28256e-18
 Contact: top
-Electron -2.12173e-16
+Electron 1.32608e-17
 Hole 0
-Total -2.12173e-16
+Total 1.32608e-17
 Contact: bot
 Electron 0
 Hole 0
 Total 0
 number of equations 244
 Iteration: 0
-  Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.55943e+01
-    Region: "MyRegion"	RelError: 1.00000e+00	AbsError: 1.55943e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.55933e-16	AbsError: 1.55933e+01
+  Device: "MyDevice"	RelError: 1.00000e+00	AbsError: 1.62876e+01
+    Region: "MyRegion"	RelError: 1.00000e+00	AbsError: 1.62876e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.62866e-16	AbsError: 1.62866e+01
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e-03
   Circuit: 	RelError: 1.00000e+00	AbsError: 7.40000e-03
 Iteration: 1
-  Device: "MyDevice"	RelError: 2.31423e-14	AbsError: 1.66008e+01
-    Region: "MyRegion"	RelError: 2.31423e-14	AbsError: 1.66008e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.66008e-16	AbsError: 1.66008e+01
-      Equation: "PotentialEquation"	RelError: 2.29763e-14	AbsError: 2.51222e-18
-  Circuit: 	RelError: 7.88443e-15	AbsError: 5.06772e-17
+  Device: "MyDevice"	RelError: 2.05649e-14	AbsError: 2.10759e+01
+    Region: "MyRegion"	RelError: 2.05649e-14	AbsError: 2.10759e+01
+      Equation: "ElectronContinuityEquation"	RelError: 2.10759e-16	AbsError: 2.10759e+01
+      Equation: "PotentialEquation"	RelError: 2.03542e-14	AbsError: 3.45173e-18
+  Circuit: 	RelError: 5.89315e-15	AbsError: 3.77162e-17
 Contact: top
 Electron 0.0064
 Hole 0
@@ -124,32 +100,32 @@ Hole 0
 Total -0.0064
 number of equations 244
 Iteration: 0
-  Device: "MyDevice"	RelError: 1.38720e-14	AbsError: 2.02323e+01
-    Region: "MyRegion"	RelError: 1.38720e-14	AbsError: 2.02323e+01
-      Equation: "ElectronContinuityEquation"	RelError: 2.02323e-16	AbsError: 2.02323e+01
-      Equation: "PotentialEquation"	RelError: 1.36697e-14	AbsError: 2.04840e-18
-  Circuit: 	RelError: 3.49500e-15	AbsError: 2.23680e-17
+  Device: "MyDevice"	RelError: 1.31827e-14	AbsError: 1.48231e+01
+    Region: "MyRegion"	RelError: 1.31827e-14	AbsError: 1.48231e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.48231e-16	AbsError: 1.48231e+01
+      Equation: "PotentialEquation"	RelError: 1.30345e-14	AbsError: 5.46141e-18
+  Circuit: 	RelError: 1.19414e-15	AbsError: 7.64247e-18
 number of equations 244
 Iteration: 0
-  Device: "MyDevice"	RelError: 1.60350e-14	AbsError: 1.53032e+01
-    Region: "MyRegion"	RelError: 1.60350e-14	AbsError: 1.53032e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.53032e-16	AbsError: 1.53032e+01
-      Equation: "PotentialEquation"	RelError: 1.58819e-14	AbsError: 3.52426e-18
-  Circuit: 	RelError: 1.12962e-15	AbsError: 7.22960e-18
+  Device: "MyDevice"	RelError: 1.21849e-14	AbsError: 1.57369e+01
+    Region: "MyRegion"	RelError: 1.21849e-14	AbsError: 1.57369e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.57369e-16	AbsError: 1.57369e+01
+      Equation: "PotentialEquation"	RelError: 1.20275e-14	AbsError: 5.19709e-18
+  Circuit: 	RelError: 5.96313e-16	AbsError: 3.81640e-18
 number of equations 244
 Iteration: 0
-  Device: "MyDevice"	RelError: 1.84656e-14	AbsError: 1.47343e+01
-    Region: "MyRegion"	RelError: 1.84656e-14	AbsError: 1.47343e+01
-      Equation: "ElectronContinuityEquation"	RelError: 1.47343e-16	AbsError: 1.47343e+01
-      Equation: "PotentialEquation"	RelError: 1.83182e-14	AbsError: 4.24299e-18
-  Circuit: 	RelError: 3.98333e-16	AbsError: 2.54933e-18
+  Device: "MyDevice"	RelError: 1.45000e-14	AbsError: 1.72561e+01
+    Region: "MyRegion"	RelError: 1.45000e-14	AbsError: 1.72561e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.72561e-16	AbsError: 1.72561e+01
+      Equation: "PotentialEquation"	RelError: 1.43275e-14	AbsError: 7.53503e-18
+  Circuit: 	RelError: 2.14476e-15	AbsError: 1.37265e-17
 number of equations 244
 Iteration: 0
-  Device: "MyDevice"	RelError: 2.29861e-14	AbsError: 2.07013e+01
-    Region: "MyRegion"	RelError: 2.29861e-14	AbsError: 2.07013e+01
-      Equation: "ElectronContinuityEquation"	RelError: 2.07013e-16	AbsError: 2.07013e+01
-      Equation: "PotentialEquation"	RelError: 2.27791e-14	AbsError: 7.17886e-18
-  Circuit: 	RelError: 4.42300e-15	AbsError: 2.83072e-17
+  Device: "MyDevice"	RelError: 1.42807e-14	AbsError: 1.54828e+01
+    Region: "MyRegion"	RelError: 1.42807e-14	AbsError: 1.54828e+01
+      Equation: "ElectronContinuityEquation"	RelError: 1.54828e-16	AbsError: 1.54828e+01
+      Equation: "PotentialEquation"	RelError: 1.41258e-14	AbsError: 5.18511e-18
+  Circuit: 	RelError: 6.51880e-15	AbsError: 4.17203e-17
 Circuit output V1.I has equation 242.
 creating solution noise_V1.I_real with 2 nodes
 creating solution noise_V1.I_imag with 2 nodes
@@ -159,4 +135,4 @@ Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_real
 Device: MyDevice	Region: MyRegion	Creating: V1.I_PotentialEquation_imag
 Noise Iteration:
 number of equations 244
-9.547760076195758e-20
+9.547760076195752e-20

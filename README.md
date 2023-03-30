@@ -11,4 +11,11 @@ Python 3 environment installed and actived
 
 The Anaconda prerequisites may be installed using preinstall.bat from the command prompt.
 
+Trial Run from an Anaconda Python command prompt:
+```
+preinstall.bat
+pip install --target devsim_win64_v2.4.0 devsim-2.4.0-cp36-abi3-win_amd64.whl
+run_tests.bat v2.4.0
+```
+
 

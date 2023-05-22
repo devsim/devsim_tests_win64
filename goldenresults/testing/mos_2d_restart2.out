@@ -258,11 +258,11 @@ Could not find a model by the name of Electrons:Holes, using 0.0
 Could not find a model by the name of NetDoping:Holes, using 0.0
 Device: mymos Region: gate Equation: PotentialEquation NODE Model: PotentialNodeCharge:Potential MISSING
 Iteration: 0
-  Device: "mymos"	RelError: 1.25587e-14	AbsError: 8.03389e+03
-    Region: "bulk"	RelError: 1.15382e-14	AbsError: 4.41577e+03
-      Equation: "ElectronContinuityEquation"	RelError: 5.86909e-15	AbsError: 2.20308e+03
-      Equation: "HoleContinuityEquation"	RelError: 5.18267e-15	AbsError: 2.21268e+03
-      Equation: "PotentialEquation"	RelError: 4.86435e-16	AbsError: 1.94694e-16
+  Device: "mymos"	RelError: 1.24926e-14	AbsError: 8.03389e+03
+    Region: "bulk"	RelError: 1.14721e-14	AbsError: 4.41575e+03
+      Equation: "ElectronContinuityEquation"	RelError: 5.86911e-15	AbsError: 2.20308e+03
+      Equation: "HoleContinuityEquation"	RelError: 5.11650e-15	AbsError: 2.21267e+03
+      Equation: "PotentialEquation"	RelError: 4.86443e-16	AbsError: 1.94697e-16
     Region: "gate"	RelError: 7.22510e-16	AbsError: 8.03389e+03
       Equation: "ElectronContinuityEquation"	RelError: 8.03389e-17	AbsError: 8.03389e+03
 	RelErrorNode: 17	AbsErrorNode: 17

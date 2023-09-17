@@ -14,8 +14,8 @@ The Anaconda prerequisites may be installed using preinstall.bat from the comman
 Trial Run from an Anaconda Python command prompt:
 ```
 preinstall.bat
-pip install --target devsim_win64_2.6.1 devsim-2.6.1-cp37-abi3-win_amd64.whl
-run_tests.bat 2.6.1
+pip install --target devsim_win64_2.6.3 devsim-2.6.3-cp37-abi3-win_amd64.whl
+run_tests.bat 2.6.3
 ```
 
 

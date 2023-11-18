@@ -13,12 +13,12 @@ Iteration: 0
       Equation: "PotentialEquation"	RelError: 1.00000e+00	AbsError: 1.00000e+00
   Circuit: 	RelError: 1.00000e+00	AbsError: 2.00000e+00
 Iteration: 1
-  Device: "test"	RelError: 4.52568e-16	AbsError: 2.83879e-16
-    Region: "bulk"	RelError: 4.52568e-16	AbsError: 2.83879e-16
-      Equation: "PotentialEquation"	RelError: 4.52568e-16	AbsError: 2.83879e-16
+  Device: "test"	RelError: 4.70466e-16	AbsError: 2.33114e-16
+    Region: "bulk"	RelError: 4.70466e-16	AbsError: 2.33114e-16
+      Equation: "PotentialEquation"	RelError: 4.70466e-16	AbsError: 2.33114e-16
   Circuit: 	RelError: 0.00000e+00	AbsError: 0.00000e+00
-6.621825217477338e-14
--6.621825217477338e-14
+2.0709000000000014e-14
+-2.0709000000000007e-14
 creating solution ssac_real with 3 nodes
 creating solution ssac_imag with 3 nodes
 Device: test	Region: bulk	Creating: Potential_Real
@@ -27,17 +27,17 @@ AC Iteration:
 number of equations 38
 Circuit AC Solution
 1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	0.000000000000000e+00	-4.160615491316488e-16
-topbias	1.000000000000000e+00	-4.160615491316488e-13
+V1.I	0.000000000000000e+00	-1.301184845263821e-16
+topbias	1.000000000000000e+00	-1.301184845263821e-13
 AC Iteration:
 number of equations 38
 Circuit AC Solution
 1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.453871868048688e-04	-2.272229166040365e-04
-topbias	5.461281319513122e-02	-2.272229166040365e-01
+V1.I	-6.286782209280698e-04	-4.831582716447964e-04
+topbias	3.713217790719301e-01	-4.831582716447964e-01
 AC Iteration:
 number of equations 38
 Circuit AC Solution
 1	1.000000000000000e+00	0.000000000000000e+00
-V1.I	-9.999999999942232e-04	-2.403490546245615e-09
-topbias	5.776766805925413e-12	-2.403490546245615e-06
+V1.I	-9.999999999409362e-04	-7.685303157201936e-09
+topbias	5.906388462158658e-11	-7.685303157201936e-06

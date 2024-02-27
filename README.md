@@ -4,7 +4,7 @@ Please see ``run_tests.bat``.
 
 Results are sensitive to the CPU and system libraries that may be installed on your machine.
 
-All tests pass on Windows 10 running in vmware on a Macbook Pro 2014.
+All tests pass on a Windows 11 Desktop with an Intel I9 processor
 
 Requirements:
 Python 3 environment installed and actived

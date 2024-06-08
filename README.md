@@ -19,3 +19,6 @@ run_tests.bat 2.8.0
 ```
 
 
+During testing, it was found the Visual Studio 2022 builds were failing a test related to threading.  This was found to be a problem with version `17.10`, but not version `17.9`.  This affects the build automation.
+
+

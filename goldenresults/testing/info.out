@@ -6,5 +6,5 @@
 "license"	"Apache License, Version 2.0"
 "math_libraries"	('mkl_rt.2.dll',)
 "mkl_version"	"Intel(R) oneAPI Math Kernel Library Version 2025.0-Product Build 20241009 for Intel(R) 64 architecture applications"
-"version"	"2.11.1"
+"version"	"2.11.2"
 "website"	"https://devsim.org"

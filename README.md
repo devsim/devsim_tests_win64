@@ -1,4 +1,4 @@
-Windows 64 bit with latest Anaconda Python, and Intel MKL
+Windows 64 bit with Intel MKL
 
 Please see ``run_tests.bat``.
 
@@ -7,18 +7,24 @@ Results are sensitive to the CPU and system libraries that may be installed on y
 All tests pass on a Windows 11 Desktop with an Intel I9 processor
 
 Requirements:
-Python 3 environment installed and actived
+Python 3 environment installed and activated.  `uv` may be used for convenience.
 
-The Anaconda prerequisites may be installed using preinstall.bat from the command prompt.
-
-Trial Run from an Anaconda Python command prompt:
+Trial Run for Python 3.15
 ```
-preinstall.bat
-pip install --target devsim_win64_2.11.2 devsim-2.11.2-cp39-abi3-win_amd64.whl
-run_tests.bat 2.11.2
+uv python install 3.15
+uv venv venv --python 3.15
+venv\Scripts\activate
+uv pip install numpy mkl
+uv pip install --target devsim_win64_2.12.0_abi3 devsim-2.12.0-cp39-abi3-win_amd64.whl
+run_tests.bat 2.12.0_abi3
 ```
 
-
-During testing, it was found the Visual Studio 2022 builds were failing a test related to threading.  This was found to be a problem with version `17.10`, but not version `17.9`.  This affects the build automation.
-
-
+Trial Run for Python 3.15t
+```
+uv python install 3.15t
+uv venv venvt --python 3.15t
+venvt\Scripts\activate
+uv pip install numpy mkl
+uv pip install --target devsim_win64_2.12.0_abi3t devsim-2.12.0-cp315-abi3t-win_amd64.whl
+run_tests.bat 2.12.0_abi3t
+```

@@ -105,7 +105,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_x:Potential@en3
 13 ElectricField_y:Potential@en3
 14 ElectricField_z:Potential@en3
-2.9802322387695312e-08
+5.792826414108276e-07
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -118,12 +118,12 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00  3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00  7.10542736e-15  0.00000000e+00]
+ [ 0.00000000e+00  3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00 -3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00]]
 0 ElectricField_node0_x
 1 ElectricField_node0_y
 2 ElectricField_node0_z
@@ -139,7 +139,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node0_x:Potential@en3
 13 ElectricField_node0_y:Potential@en3
 14 ElectricField_node0_z:Potential@en3
-2.60770320892334e-08
+9.843060979619622e-07
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -152,12 +152,12 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00  7.10542736e-15  0.00000000e+00]
+ [ 0.00000000e+00  7.10542736e-15  0.00000000e+00]
+ [ 0.00000000e+00  7.10542736e-15  0.00000000e+00]
+ [ 0.00000000e+00 -3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00 -3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00]]
 0 ElectricField_node1_x
 1 ElectricField_node1_y
 2 ElectricField_node1_z
@@ -173,7 +173,7 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
 12 ElectricField_node1_x:Potential@en3
 13 ElectricField_node1_y:Potential@en3
 14 ElectricField_node1_z:Potential@en3
-3.259629011154175e-08
+5.87308022659272e-07
 [[ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
@@ -186,12 +186,12 @@ Replacing Tetrahedron Edge Model ElectricField_z in region Bulk of material Sili
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]
  [ 25.55544512  27.95724793 -81.94344116]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00 -3.55271368e-15  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 3.55271368e-15  3.55271368e-15  1.42108547e-14]
+ [ 0.00000000e+00  0.00000000e+00  0.00000000e+00]
+ [ 3.55271368e-15  3.55271368e-15  1.42108547e-14]
+ [ 3.55271368e-15  3.55271368e-15  1.42108547e-14]]
 Replacing Tetrahedron Edge Model scalar_efield in region Bulk of material Silicon
 Replacing Tetrahedron Edge Model scalar_efield_n0 in region Bulk of material Silicon
 Replacing Tetrahedron Edge Model scalar_efield_n1 in region Bulk of material Silicon
@@ -220,7 +220,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_x:Potential@en3
 13 ElectronCurrent_y:Potential@en3
 14 ElectronCurrent_z:Potential@en3
-4.3213367462158203e-07
+3.9637129702896345e-06
 [[ 5.82060697e-05 -1.13368584e-04  1.22693321e-02]
  [ 5.72356456e-05 -1.14354479e-04  1.22671159e-02]
  [ 5.72656544e-05 -1.14324562e-04  1.22672245e-02]
@@ -233,12 +233,12 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
  [ 6.03081449e-05 -1.11133211e-04  1.22671159e-02]
  [ 6.03381538e-05 -1.11103294e-04  1.22672245e-02]
  [ 5.93677297e-05 -1.12089189e-04  1.22650083e-02]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00 -3.52365706e-19  0.00000000e+00]
+ [ 0.00000000e+00 -4.74338450e-19  0.00000000e+00]
+ [-6.64073831e-19 -8.40256684e-19  0.00000000e+00]
+ [ 0.00000000e+00 -5.28548559e-19  0.00000000e+00]
+ [-6.70850094e-19 -8.94466792e-19  0.00000000e+00]
+ [-6.70850094e-19 -1.02999206e-18 -1.73472348e-18]]
 0 ElectronCurrent_node0_x
 1 ElectronCurrent_node0_y
 2 ElectronCurrent_node0_z
@@ -254,7 +254,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node0_x:Potential@en3
 13 ElectronCurrent_node0_y:Potential@en3
 14 ElectronCurrent_node0_z:Potential@en3
-6.48200511932373e-07
+4.410747351357713e-06
 [[ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
  [ 5.51335703e-05 -1.16589852e-04  1.22693321e-02]
@@ -267,12 +267,12 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
  [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
  [ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
  [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00 -2.98155597e-19  0.00000000e+00]
+ [ 0.00000000e+00 -2.98155597e-19  0.00000000e+00]
+ [ 0.00000000e+00 -2.98155597e-19  0.00000000e+00]
+ [ 0.00000000e+00 -4.06575815e-19  0.00000000e+00]
+ [ 0.00000000e+00 -4.06575815e-19  0.00000000e+00]
+ [ 0.00000000e+00 -6.64073831e-19  0.00000000e+00]]
 0 ElectronCurrent_node1_x
 1 ElectronCurrent_node1_y
 2 ElectronCurrent_node1_z
@@ -288,7 +288,7 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
 12 ElectronCurrent_node1_x:Potential@en3
 13 ElectronCurrent_node1_y:Potential@en3
 14 ElectronCurrent_node1_z:Potential@en3
-4.917383193969727e-07
+4.410747351357713e-06
 [[ 6.12785690e-05 -1.10147316e-04  1.22693321e-02]
  [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
  [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
@@ -301,9 +301,9 @@ Replacing Tetrahedron Edge Model ElectronCurrent_z in region Bulk of material Si
  [ 5.93377208e-05 -1.12119106e-04  1.22648997e-02]
  [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]
  [ 5.93977386e-05 -1.12059272e-04  1.22651170e-02]]
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[ 0.00000000e+00 -4.06575815e-19  0.00000000e+00]
+ [ 0.00000000e+00 -6.64073831e-19  0.00000000e+00]
+ [-1.33492392e-18 -1.39591030e-18 -3.46944695e-18]
+ [ 0.00000000e+00 -6.64073831e-19  0.00000000e+00]
+ [-1.33492392e-18 -1.39591030e-18 -3.46944695e-18]
+ [-1.33492392e-18 -1.39591030e-18 -3.46944695e-18]]

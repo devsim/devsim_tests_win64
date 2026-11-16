@@ -1,0 +1,7 @@
+intel-cmplr-lib-ur==2026.2.0
+intel-openmp==2026.2.0
+mkl==2026.2.1
+numpy==2.5.4
+tbb==2023.2.0
+tcmlib==1.6.0
+umf==1.2.0

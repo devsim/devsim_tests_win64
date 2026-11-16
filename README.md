@@ -17,6 +17,7 @@ venv\Scripts\activate
 uv pip install numpy mkl
 uv pip install --target devsim_win64_2.12.0_abi3 devsim-2.12.0-cp39-abi3-win_amd64.whl
 run_tests.bat 2.12.0_abi3
+uv pip freeze > requirements.txt
 ```
 
 Trial Run for Python 3.15t
@@ -28,3 +29,5 @@ uv pip install numpy mkl
 uv pip install --target devsim_win64_2.12.0_abi3t devsim-2.12.0-cp315-abi3t-win_amd64.whl
 run_tests.bat 2.12.0_abi3t
 ```
+
+Please note that results are sensitive to MKL version.  Please check `requirements.txt` or `goldenresults/testing/info.out` for version the tests were run on.
